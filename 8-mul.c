@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul_fun - function that divide top two elemnt in the stack
+ * mul_fun - function that mul the top two elements in the stack
  *
  * @head: head of the stack
  * @line_num: line number

@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * sub - function that adds top two elemnt in the stack
+ * sub - function that subtracts the top two elements in the stack
  *
  * @head: head of the stack
  * @line_num: line number

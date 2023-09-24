@@ -1,7 +1,8 @@
 #include "monty.h"
 
 /**
- * mod_fun - function that divide top two elemnt in the stack
+ * mod_fun - function that gets the mod
+ * of the top two elemnts in the stack
  *
  * @head: head of the stack
  * @line_num: line number
