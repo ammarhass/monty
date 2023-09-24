@@ -18,6 +18,7 @@ int fun(char *line, stack_t **head, unsigned int line_num)
 		{"pall", Print_Stack}, {"pop", pop},
 		{"swap", swap}, {"add", add}, {"nop", nop},
 		{"sub", sub}, {"div", div_fun},{"mul", mul_fun},
+		{"mod", mod_fun},
 		{NULL, NULL}
 	};
 	tok = strtok(line, delimiter);

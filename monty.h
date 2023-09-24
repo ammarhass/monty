@@ -61,5 +61,6 @@ void nop(stack_t **head, unsigned int line_num);
 void sub(stack_t **head, unsigned int line_num);
 void div_fun(stack_t **head, unsigned int line_num);
 void mul_fun(stack_t **head, unsigned int line_num);
+void mod_fun(stack_t **head, unsigned int line_num);
 
 #endif
