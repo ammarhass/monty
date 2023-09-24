@@ -22,7 +22,7 @@ int fun(char *line, stack_t **head, unsigned int line_num)
 		{NULL, NULL}
 	};
 	tok = strtok(line, delimiter);
-	if (tok && tok[0] == '$')
+	if (tok && tok[0] == '#')
 		return (0);
 	arg.num = strtok(NULL, delimiter);
 	while (arr[i].opcode && tok)
