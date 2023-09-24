@@ -16,7 +16,7 @@ int fun(char *line, stack_t **head, unsigned int line_num)
 	instruction_t arr[] = {
 		{"push", Push_To_Stack}, {"pint", Top_Of_Stack},
 		{"pall", Print_Stack}, {"pop", pop},
-		{"swap", swap}, {"add", add},
+		{"swap", swap}, {"add", add}, {"nop", nop},
 		{NULL, NULL}
 	};
 	tok = strtok(line, delimiter);
