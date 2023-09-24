@@ -1,6 +1,6 @@
 #include "monty.h"
 
-handle_t arg  = {NULL, NULL};
+handle_t arg  = {NULL, NULL, NULL};
 /**
  * fun - function that chooses the opcode
  *
@@ -14,7 +14,7 @@ int fun(char *line, stack_t **head, unsigned int line_num)
 	unsigned int i = 0;
 	char *delimiter = " \t\n\r", *tok;
 	instruction_t arr[] = {
-		{"push", Push_To_Stack},
+		{"push", Push_To_Stack}, {"pint", Top_Of_Stack},
 		{"pall", Print_Stack},
 		{NULL, NULL}
 	};
@@ -94,6 +94,7 @@ int main(int argc, char **argv)
 		line_num++;
 		arg.textfile = textfile;
 		i = getline(&line, &n, textfile);
+		arg.str = line;
 		if (i > 0)
 		{
 			fun(line, &head, line_num);
