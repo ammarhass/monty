@@ -55,5 +55,6 @@ void Push_To_Stack(stack_t **head, unsigned int n);
 void Print_Stack(stack_t **head, unsigned int line_num);
 void Top_Of_Stack(stack_t **head, unsigned int line_num);
 void pop(stack_t **head, unsigned int line_num);
+void swap(stack_t **head, unsigned int line_num);
 
 #endif
