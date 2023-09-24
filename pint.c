@@ -12,7 +12,7 @@ void Top_Of_Stack(stack_t **head, unsigned int line_num)
 {
 	if (*head == NULL)
 	{
-		printf("L%d: can't pint, stack empty\n", line_num);
+		fprintf(stderr, "L%d: can't pint, stack empty\n", line_num);
 		fclose(arg.textfile);
 		free_the_stack(*head);
 		free(arg.str);
